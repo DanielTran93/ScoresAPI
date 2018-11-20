@@ -58,4 +58,12 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Games.sql" />
+    <Build Include="Players.sql" />
+    <Build Include="Scores.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="PlayersOnlyDB.refactorlog" />
+  </ItemGroup>
 </Project>

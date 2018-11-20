@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoresAPI", "ScoresAPI\ScoresAPI.csproj", "{3EB27A0B-6146-4CD9-9589-9A4BA56F524B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PlayersOnlyDB", "PlayersOnlyDB\PlayersOnlyDB.sqlproj", "{6DAD7937-C6A0-497E-80A0-2A5926F115D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{3EB27A0B-6146-4CD9-9589-9A4BA56F524B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB27A0B-6146-4CD9-9589-9A4BA56F524B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB27A0B-6146-4CD9-9589-9A4BA56F524B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAD7937-C6A0-497E-80A0-2A5926F115D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAD7937-C6A0-497E-80A0-2A5926F115D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAD7937-C6A0-497E-80A0-2A5926F115D5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6DAD7937-C6A0-497E-80A0-2A5926F115D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAD7937-C6A0-497E-80A0-2A5926F115D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAD7937-C6A0-497E-80A0-2A5926F115D5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
