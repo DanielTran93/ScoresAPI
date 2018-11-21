@@ -4,7 +4,7 @@
     [PlayerName] NVARCHAR(50) NOT NULL, 
     [Wins] INT NOT NULL, 
     [Losses] INT NOT NULL, 
-    [RegisteredDate] NVARCHAR(50) NOT NULL, 
+    [RegisteredDate] DATE NOT NULL, 
     [ContactNumber] NUMERIC NOT NULL, 
     [Email] NVARCHAR(50) NOT NULL, 
     [MoneyOwing] FLOAT NOT NULL

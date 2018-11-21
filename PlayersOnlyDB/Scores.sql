@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Scores]
 (
 	[ScoreID] INT NOT NULL PRIMARY KEY, 
-    [GamePlayedDate] NVARCHAR(50) NOT NULL, 
+    [GamePlayedDate] DATE NOT NULL, 
     [GameID] INT NOT NULL, 
     [Winner] INT NOT NULL, 
     [Loser] INT NOT NULL
