@@ -101,9 +101,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\PlayersOnlyDB.mdf" />
-    <Content Include="App_Data\PlayersOnlyDB_log.ldf">
-      <DependentUpon>PlayersOnlyDB.mdf</DependentUpon>
+    <Content Include="App_Data\GameScoresDB.mdf" />
+    <Content Include="App_Data\GameScoresDB_log.ldf">
+      <DependentUpon>GameScoresDB.mdf</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
